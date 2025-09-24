@@ -23,4 +23,16 @@ public class Ward {
             }
         }
     }
+
+    public Vector<Patient> getPatients() {
+        return patients;
+    }
+
+    public Vector<Treatment> getTreatments() {
+        return treatments;
+    }
+
+    public void addTreatment(Treatment treatment) {
+        treatments.add(treatment);
+    }
 }
